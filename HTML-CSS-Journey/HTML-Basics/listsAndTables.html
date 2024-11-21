@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List and tables in HTML</title>
+  </head>
+  <body>
+    <!-- list and tables -->
+    <h1>Lists, Tables and Forms in HTML</h1>
+    <hr />
+    <h1>Lists :</h1>
+    <h2>Unordered List:</h2>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+
+      <li>Item 4</li>
+    </ul>
+    <h2>Ordered List:</h2>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+    <hr />
+    <h1>Tables :</h1>
+    <table>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+      </tr>
+    </table>
+    <hr />
+    <h1>Forms :</h1>
+    <form action="/submit" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required /><br />
+      <label for="password">Password:</label>
+
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter your password"
+      />
+      <br />
+      <label for="email">Email:</label>
+
+      <input type="email" name="email" placeholder="Enter your email" /> <br />
+      <label for="Number">Mobile Number:</label>
+
+      <input
+        type="number"
+        name="quantity"
+        min="1"
+        max="10"
+        placeholder="number"
+      />
+      <br />
+      <label for="dob">DOB:</label> <br />
+
+      <input type="date" name="dob" /><br />
+      <input type="time" name="appointment" /> <br />
+
+      <input type="file" name="upload" /> <br />
+      <input type="radio" name="gender" value="male" /> Male <br />
+      <input type="radio" name="gender" value="female" /> Female <br />
+      <input type="checkbox" name="hobby" value="reading" /> Reading <br />
+      <input type="checkbox" name="hobby" value="traveling" /> Traveling <br />
+      <input type="reset" value="Reset" /> <br />
+      <input type="hidden" name="userID" value="12345" /> <br />
+      <textarea
+        name="message"
+        rows="4"
+        cols="50"
+        placeholder="Enter your message"
+      ></textarea>
+      <br />
+      <select name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+      </select>
+      <br />
+      <select name="skills" multiple>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+      </select>
+      <br />
+      <progress value="70" max="100"></progress> <br />
+
+      <button type="submit">Submit</button><br />
+    </form>
+  </body>
+</html>

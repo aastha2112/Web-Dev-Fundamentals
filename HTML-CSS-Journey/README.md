@@ -55,4 +55,4 @@ If you have questions, suggestions, or feedback, don’t hesitate to open an iss
 
 ## Ready to Start? 🚀
 
-Head over to the [index.html](./HTML-Basics/introduction.html) file and dive into the world of HTML and CSS. Happy coding!
+Head over to the [introduction.html](./HTML-Basics/introduction.html) file and dive into the world of HTML and CSS. Happy coding!
