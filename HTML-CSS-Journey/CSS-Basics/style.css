@@ -1,0 +1,72 @@
+/* Basic styling for the entire document */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Styling for the sections (cards) */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s ease;
+}
+
+.card h2 {
+  color: #4caf50;
+}
+
+/* Button styling */
+.primary-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: #235425;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
